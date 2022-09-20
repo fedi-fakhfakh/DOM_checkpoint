@@ -1,0 +1,107 @@
+body{
+    margin-right: 0px;
+    background-color:rgb(180, 180, 180);
+}
+body > aside{
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    height: 200px;
+    width: 75px;
+    top: 49%;
+    right: 0;
+    margin: 0px;
+    border-radius: 10%;
+    background: rgb(8, 0, 17);
+    justify-content: center;
+
+}
+aside > div{
+    text-align: center;
+    padding: 10px 0px;
+}
+aside > div > a ,aside > div >p{
+    text-decoration: none;
+    color: white;
+}
+aside > div:hover{
+    background-color:rgb(46, 0, 17);
+    border-radius: 20%;
+}
+#purchase{
+    border-radius:40%;
+    height: 20px;
+}
+main > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    padding: 0px 10px;
+    background-color: rgb(243, 245, 242);
+}
+main > div > div{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ 
+}
+main > div > div > div{
+    display: flex;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+    flex-wrap:wrap;
+    padding: 10px 0px;
+}
+main > div > img{
+    margin-top: 10px;
+}
+
+main > div >div > div>div {
+    display: flex;
+    align-items: center;
+}
+main > div >div > div >div> p {
+    width: 30px;
+    background-color:rgb(8, 0, 17);
+    color: white;
+    text-decoration:none ;
+    text-align: center;
+}
+main > div >div > div >div> #subbo {
+    width: 30px;
+    height: 20px;
+}
+main > div >div > div > div> #addo {
+    width: 30px;
+    height: 20px;
+   
+}
+main > div >div > div >div> #subbt {
+    width: 30px;
+    height: 20px;
+}
+main > div >div > div > div> #addt {
+    width: 30px;
+    height: 20px;
+   
+}
+main > div >div > div >div> #subbf {
+    width: 30px;
+    height: 20px;
+}
+main > div >div > div > div> #addf {
+    width: 30px;
+    height: 20px;
+}
+main > div > div > button{
+    align-self: center;
+    border-radius:50%;
+}

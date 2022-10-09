@@ -88,7 +88,7 @@ main > div >div > div >div> #subbt {
     width: 30px;
     height: 20px;
 }
-main > div >div > div > div> #addt {
+#addt {
     width: 30px;
     height: 20px;
    
@@ -101,7 +101,24 @@ main > div >div > div > div> #addf {
     width: 30px;
     height: 20px;
 }
-main > div > div > button{
+/*main > div > div > button{
     align-self: center;
     border-radius:50%;
+    border: 1px solid black;
+}*/
+.x{
+    border-radius:50%;
+    
+}
+.bs{
+    border: 1px solid black;
+    display: flex;
+   justify-content: space-around;}
+.black{
+    align-self: center;
+    color:black;
+}
+.blue{
+    color: rgba(59, 59, 139, 0.432);
+    align-self: center;
 }
